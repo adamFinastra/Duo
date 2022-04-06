@@ -18,7 +18,12 @@ Duo allows a data owner to launch a server and connect to a node that they host 
 
 ## Who Are the Credit Invisible?
 
-A person is said to be "credit invisible" **if they have no credit history or report at any of the three national credit bureaus** (Experian, TransUnion and Equifax). The Consumer Financial Protection Bureau (CFPB) estimates that 26 million U.S. consumers are credit invisible—that's roughly 11% of the adult population.
+A person is said to be "credit invisible" if they have no credit history or report at any of the three national credit bureaus (Experian, TransUnion and Equifax). The Consumer Financial Protection Bureau (CFPB) estimates that 26 million U.S. consumers are credit invisible, roughly 11% of the adult population. Disadvantages of being credit invisible include but are not limited to:
+- Difficulty obtaining housing, often times much more expensive
+- Difficulty qualifying for credit cards 
+- Borrowing money is much more expensive
+- More likely to turn towards payday lenders
+
 
 ## How Does Alternative Data Help?
 Without a strong trace of credit, it can be hard for the credit invisible to prove a track record. Alternative data, in the credit invisible sense, is information that is not included in traditional credit reports from the big 3. It can include many different types of data not limited to: from rent payments, cellular bills, browsing history, utility bills, subscriptions, social media data, and much more. Various studies have shown that this data can be leveraged to understand someone's ability to repay a loan and help establish reliability when there is no traditional credit history. 
