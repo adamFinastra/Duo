@@ -220,3 +220,4 @@ Open a terminal session and run:
 - https://inpher.io/technology/what-is-secure-multiparty-computation/ 
 - https://dp-ml.github.io/2021-workshop-ICLR/files/35.pdf 
 - https://blog.openmined.org/duet-opengrid-infrastructure-for-easy-remote-data-science/
+- https://courses.openmined.org/
