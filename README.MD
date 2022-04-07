@@ -191,7 +191,7 @@ Open browser and navigate to http://localhost:5002/connect_session
 * **Financial institution request access to compute on dataset:**
 Open a terminal session and run:
 
-		curl -i -H "Content-Type: application/son" -X POST -d '{"idx": 0, "computation":"max", "name": "max netfix Payment", "reason": "I need to know the max netflix  payment"}' http://localhost:5002/request_data
+		curl -i -H "Content-Type: application/json" -X POST -d '{"idx": 0, "computation":"max", "name": "max netfix Payment", "reason": "I need to know the max netflix  payment"}' http://localhost:5002/request_data
 
 * **Credit invisible data owner approve/deny financial institution request:**
 Open a terminal session and run:
