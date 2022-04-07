@@ -202,7 +202,7 @@ Open a terminal session and run:
 <br>
 <p><b>Financial Institution:</b></p>
 <p float="left">
-<img src="/DuoImages/Jill_Start.png" alt="drawing" width="200"/>
+<img src="/DuoImages/Jill_start.png" alt="drawing" width="200"/>
 <img src="/DuoImages/Jill_Connect.png" alt="drawing" width="200"/>
 <img src="/DuoImages/Jill_Home.png" alt="drawing" width="200"/>
 <img src="/DuoImages/Jill_Requests.png" alt="drawing" width="200"/>
