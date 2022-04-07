@@ -192,10 +192,12 @@ Open a terminal session and run:
 
 ## The Application
 * Credit Invisible Data Owner:
+<p float="left">
 <img src="/DuoImages/Jack_Host.png" alt="drawing" width="200"/>
 <img src="/DuoImages/Jack_Home.png" alt="drawing" width="200"/>
 <img src="/DuoImages/Jack_Load_Data.png" alt="drawing" width="200"/>
 <img src="/DuoImages/Jack_Requests.png" alt="drawing" width="200"/>
+</p>
 <img src="/DuoImages/Duo_data_owner.png" alt="drawing" width="800"/>
 
 
