@@ -190,8 +190,8 @@ Open a terminal session and run:
 
 		curl -i -H "Content-Type: application/json" -X POST -d '{"ix": 0}' http://localhost:5002/run_computation
 
-##The Application
-Credit Invisible Data Owner:
+## The Application
+* Credit Invisible Data Owner:
 <img src="/DuoImages/Jack_Host.png" alt="drawing" width="200"/>
 <img src="/DuoImages/Jack_Home.png" alt="drawing" width="200"/>
 <img src="/DuoImages/Jack_Load_Data.png" alt="drawing" width="200"/>
