@@ -7,15 +7,6 @@
 
 In an age where data privacy has never been more important, Duo is an application that allows data owners to connect to their financial institution in a safe and secure manner, through the power of cryptography and machine learning. Duo allows customers to own their own data and grant the FI access, as needed, to run computations and gain insights that are executed on the data owners computer, not machines on the financial institution's side. Data never leaves the customer's computer and all computations the FI are interested in are first approved by the customer and run on the customer's computer. Duo also provides interpretability on how and why your data is being accessed and used.  Duo makes owning and sharing your data with your financial institution safe, secure, and easy. 
 
-
-## Why is Data Privacy Important?
-
-As consumers, we provide a high degree of information that is sensitive and needs to be kept secure. From credit card numbers to information about our children to medical records to emails and more, our data tells our life story. If data is leaked or breached, our well-being could be in trouble. Data privacy is important because we need to ensure the data we voluntarily turn over to a 3rd party is accessed in a responsible manner and stored securely. On the other hand, data powers the services that 3rd parties offer and they must have access at hand to innovate and develop solutions that make our life easier and better. A chicken and egg problem, we need to give access to data but ensure that it is kept safe and secure. 
-
-## What is the Technology Behind Duo?
-Duo allows a data owner to launch a server and connect to a node that they host (local machine, azure, aws, etc.). The data owner and the financial institution are connected behind a firewall through the mutual connection to the node. When both parties are connected, metadata about their network connection is sent to the external node, like other similar peer-to-peer technology, which creates a direct connection between the data owner and the FI. The data owner can load data on their machine to the data store and allow the FI to search for what's available. The FI can send requests and reasons to access certain computations on data in the form of pointers and upon approval secure multi-party computation brings the computation to the data owner and the result is sent back to the FI. This ensures that data stays on the data owner's machine and that the FI never receives or is able to store any data on their servers.
-
-
 ## Who Are the Credit Invisible?
 
 A person is said to be "credit invisible" if they have no credit history or report at any of the three national credit bureaus (Experian, TransUnion and Equifax). The Consumer Financial Protection Bureau (CFPB) estimates that 26 million U.S. consumers are credit invisible, roughly 11% of the adult population. Disadvantages of being credit invisible include but are not limited to:
@@ -23,6 +14,14 @@ A person is said to be "credit invisible" if they have no credit history or repo
 - Difficulty qualifying for credit cards 
 - Borrowing money is much more expensive
 - More likely to turn towards payday lenders
+
+
+## Why is Data Privacy Important?
+
+As consumers, we provide a high degree of information that is sensitive and needs to be kept secure. From credit card numbers to information about our children to medical records to emails and more, our data tells our life story. If data is leaked or breached, our well-being could be in trouble. Data privacy is important because we need to ensure the data we voluntarily turn over to a 3rd party is accessed in a responsible manner and stored securely. On the other hand, data powers the services that 3rd parties offer and they must have access at hand to innovate and develop solutions that make our life easier and better. A chicken and egg problem, we need to give access to data but ensure that it is kept safe and secure. 
+
+## What is the Technology Behind Duo?
+Duo allows a data owner to launch a server and connect to a node that they host (local machine, azure, aws, etc.). The data owner and the financial institution are connected behind a firewall through the mutual connection to the node. When both parties are connected, metadata about their network connection is sent to the external node, like other similar peer-to-peer technology, which creates a direct connection between the data owner and the FI. The data owner can load data on their machine to the data store and allow the FI to search for what's available. The FI can send requests and reasons to access certain computations on data in the form of pointers and upon approval secure multi-party computation brings the computation to the data owner and the result is sent back to the FI. This ensures that data stays on the data owner's machine and that the FI never receives or is able to store any data on their servers.
 
 
 ## How Does Alternative Data Help?
