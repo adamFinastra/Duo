@@ -50,7 +50,7 @@ Below are the endpoints that power Duo:
     
     > Sample POST: data (list), tag (str), description (str)
     
-        curl -i -H "Content-Type: application/son" -X POST -d '{"data":[1,2,3,4,5,12], "tag": "utility", "description": "my 2021 utility bills"}' http://localhost:5001/store_data
+        curl -i -H "Content-Type: application/json" -X POST -d '{"data":[1,2,3,4,5,12], "tag": "utility", "description": "my 2021 utility bills"}' http://localhost:5001/store_data
     
     > Returns: {"status": "data storage complete"} upon successful storing of data and {"status": "failure to load data to the data store, please try again"} upon unsuccessful storage of data to the datastore
 
