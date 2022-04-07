@@ -191,7 +191,7 @@ Open a terminal session and run:
 		curl -i -H "Content-Type: application/json" -X POST -d '{"ix": 0}' http://localhost:5002/run_computation
 
 ## The Application
-** Credit Invisible Data Owner: **
+**Credit Invisible Data Owner:**
 <p float="left">
 <img src="/DuoImages/Jack_Host.png" alt="drawing" width="200"/>
 <img src="/DuoImages/Jack_Home.png" alt="drawing" width="200"/>
@@ -200,9 +200,9 @@ Open a terminal session and run:
 </p>
 <img src="/DuoImages/Duo_data_owner.png" alt="drawing" width="800"/>
 <br>
-** Financial Institution: **
+**Financial Institution:**
 <p float="left">
-<img src="/DuoImages/Jack_Start.png" alt="drawing" width="200"/>
+<img src="/DuoImages/Jill_Start.png" alt="drawing" width="200"/>
 <img src="/DuoImages/Jill_Connect.png" alt="drawing" width="200"/>
 <img src="/DuoImages/Jill_Home.png" alt="drawing" width="200"/>
 <img src="/DuoImages/Jill_Requests.png" alt="drawing" width="200"/>
