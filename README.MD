@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="duo_logo.png" alt="drawing" width="200"/></center>
+	<img src="DuoImages/duo_logo.png" alt="drawing" width="200"/></center>
 </p>
 
 >🎶 Jack and Jill went up the hill to share a bit of data, Jill said please and Jack agreed, and data was safely transferred 🎶
