@@ -148,17 +148,17 @@ Below are the endpoints that power Duo:
 ## Duo Environment
 We have created an environment.yml file for you to spin up the exact environment we used when creating Duo. To start, open a terminal and run:
 		
-		conda env create -f environment.yml 
+	conda env create -f environment.yml 
 
 This will create a virtual conda environment called <i>syft_env</i>. 
 
 To activate the virtaul environment run:
 
-		source activate syft_env
+	source activate syft_env
 
 To deactivate the virtal environment run: 
 
-		source deactivate syft_env
+	source deactivate syft_env
 
 Leveraging this conda environment will install all the necessary dependencies and libraries to run the quart API app below. 
 
