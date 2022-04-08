@@ -230,7 +230,7 @@ Open a terminal session and run:
 <br>
 
 ## Check It Out
-[![Watch the video](https://www.youtube.com/watch?v=pJbquqDuHdg)
+[![Watch the video](https://www.youtube.com/watch?v=pJbquqDuHdg)]
 
 
 ## Resources 
