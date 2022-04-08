@@ -230,7 +230,7 @@ Open a terminal session and run:
 <br>
 
 ## Check It Out
-<p>Check out Duo in action <a href="https://www.youtube.com/watch?v=pJbquqDuHdg">here</a>.</p>
+[![Watch the video](https://www.youtube.com/watch?v=pJbquqDuHdg)
 
 
 ## Resources 
