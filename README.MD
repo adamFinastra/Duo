@@ -229,8 +229,8 @@ Open a terminal session and run:
 <img src="/DuoImages/Duo_FI.png" alt="drawing" width="800"/>
 <br>
 
-
-
+## Check It Out
+<p>Check out Duo in action <a href="https://www.youtube.com/watch?v=pJbquqDuHdg">here</a>.</p>
 
 
 ## Resources 
