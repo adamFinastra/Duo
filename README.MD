@@ -207,6 +207,14 @@ Open a terminal session and run:
 
 		curl -i -H "Content-Type: application/json" -X POST -d '{"ix": 0}' http://localhost:5002/run_computation
 
+## Run the Angular Application
+
+To run the angular application open a termainl and run the following commands:
+
+		cd duo
+		npm install
+		ng serve
+
 
 ## The Application
 <p>Our application takes on two personas. Jack is classified as credit invisible and is looking to obtain a credit card. Jill is a loan officer leveraging Duo to access Jack's data in a secure fashion to help him secure his first credit card. Jack starts a Duo session that Jill connects to. Jack uploads his alternative data and Jill is able to discover what is available in the meta datastore. Jill can request computations that run on Jack's machine, but Jack has the power to approve and deny requests he does or does not see fit. If approved, Jill can retrieve data answers for her requests. No raw data ever leaves Jack's machhine and he has full control and interpretability over his data. He can access his logs to see what and why his data was requested and being used for. Duo allows the credit invisible to work with financial institutions to obtain credit while keeping full ownership over their data.</p> 

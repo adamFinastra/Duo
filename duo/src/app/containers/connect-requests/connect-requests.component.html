@@ -1,0 +1,37 @@
+<h4>Complete</h4>
+<br>
+<div>
+    <table>
+        <tr>
+          <th>Request Reason</th>
+          <th>Decision</th>
+          <th>Decision Timestamp</th>
+          <th>Action</th>
+        </tr>
+        <tr *ngFor = "let row of requestLogs; let i = index">
+            <td>{{row["Request Reason"]}}</td>
+            <td>{{row.Decision}}</td>
+            <td>{{row["Decision Timestamp"]}}</td>
+            <td *ngIf="row.Decision == 'approve'"><button (click)="runComputation(i)">Run Computation</button></td>
+        </tr>
+      </table>
+</div>
+
+<br>
+<br>
+<h4>Incomplete</h4>
+<br>
+<div>
+  <table>
+      <tr>
+        <th>Index</th>
+        <th>Reason</th>
+        <th>Requested Access</th>
+      </tr>
+      <tr *ngFor = "let row of requests;">
+          <td>{{row.index}}</td>
+          <td>{{row.Reason}}</td>
+          <td>{{row["Requested Access"]}}</td>
+      </tr>
+    </table>
+</div>

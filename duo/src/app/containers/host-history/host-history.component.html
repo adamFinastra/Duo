@@ -1,0 +1,14 @@
+<div>
+    <table>
+        <tr>
+          <th>Request Reason</th>
+          <th>Decision</th>
+          <th>Decision Timestamp</th>
+        </tr>
+        <tr *ngFor = "let row of requestLogs">
+            <td>{{row["Request Reason"]}}</td>
+            <td>{{row.Decision}}</td>
+            <td>{{row["Decision Timestamp"]}}</td>
+        </tr>
+      </table>
+</div>

@@ -1,0 +1,40 @@
+<h3>Make a New Request</h3>
+<div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="Name" [(ngModel)]="name">
+</div>
+<br>
+<div>
+    <label for="reason">Reason:</label>
+    <input type="text" id="reason" name="Reason" [(ngModel)]="reason">
+</div>
+<br>
+
+
+<label for="computation">Computation:</label>
+
+<select name="computation" id="computation" [(ngModel)]="computation">
+  <option value="average" >Average</option>
+  <option value="median" >Median</option>
+  <option value="max" >Max</option>
+  <option value="min" >Min</option>
+</select>
+
+<br><br>
+<h4>Available Data</h4>
+<div>
+    <table>
+        <tr>
+          <th>Description</th>
+          <th>Filename</th>
+          <th>Index</th>
+          <th>Action</th>
+        </tr>
+        <tr *ngFor = "let row of data_store">
+            <td>{{row.Description}}</td>
+            <td>{{row.Filename}}</td>
+            <td>{{row.index}}</td>
+            <td><button (click)="requestAccess(row)">Request Access</button></td>
+        </tr>
+      </table>
+</div>

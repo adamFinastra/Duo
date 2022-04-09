@@ -1,0 +1,16 @@
+<div>
+    <table>
+        <tr>
+          <th>Index</th>
+          <th>Reason</th>
+          <th>Requested Access</th>
+          <th>Action</th>
+        </tr>
+        <tr *ngFor = "let row of requests">
+            <td>{{row.index}}</td>
+            <td>{{row.Reason}}</td>
+            <td>{{row["Requested Access"]}}</td>
+            <td><button (click)="makeDecision(row, 'approve')">Approve</button><button (click)="makeDecision(row, 'deny')">Deny</button></td>
+        </tr>
+      </table>
+</div>
